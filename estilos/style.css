@@ -9,7 +9,7 @@ Roxo -> #5f2c82
 */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
 }
@@ -19,3 +19,60 @@ Roxo -> #5f2c82
     --roxo: #5f2c82;
 }
 
+body {
+    background-color: var(--roxo);
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    background-color: white;
+    width: 250px;
+    height: 520px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section p {
+    padding: 10px 0px;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    background: black url('../imagens/metal.jpg');
+}
+
+div#formulario {
+    padding: 10px;
+}
+
+.campo {
+    background-color: var(--roxo);
+    margin-bottom: 5px;
+    width: 230px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.campo input {
+    background-color: rgba(150, 235, 232, 0.925);
+    width: 180px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.material-icons {
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+}
