@@ -2,7 +2,7 @@
 
 /* 
 Typical Device Breakpoint
-------------------------
+-----
 Pequenas telas: até 600px;
 Celular: 600px até 768px;
 Tablet: 768px até 992px;
@@ -18,7 +18,7 @@ Grandes telas: acima de 1200px.
     
     section#login {
         width: 80vw;
-        height: 50vh;
+        height: 53vh;
     }
 
     section > div#imagem {
@@ -40,7 +40,7 @@ Grandes telas: acima de 1200px.
     
     section#login {
         width: 950px;
-        height: 350px;
+        height: 320px;
     }
 
     section > div#imagem {
